@@ -7,18 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B1D53E73AB18C68EF29593A /* Pods_CombineMockup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 642F88901E838C445922DD07 /* Pods_CombineMockup.framework */; };
 		F883657E2AEF94F2006305A9 /* CombineMockupApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883657D2AEF94F2006305A9 /* CombineMockupApp.swift */; };
 		F88365802AEF94F2006305A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883657F2AEF94F2006305A9 /* ContentView.swift */; };
 		F88365822AEF94F4006305A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F88365812AEF94F4006305A9 /* Assets.xcassets */; };
 		F88365852AEF94F4006305A9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F88365842AEF94F4006305A9 /* Preview Assets.xcassets */; };
+		F883A7BB2AEFE59700618EA3 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883A7BA2AEFE59700618EA3 /* Model.swift */; };
+		F883A7BF2AEFE63500618EA3 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883A7BE2AEFE63500618EA3 /* APIError.swift */; };
+		F883A7C12AEFEAB400618EA3 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883A7C02AEFEAB400618EA3 /* ViewModel.swift */; };
+		F883A7C32AEFEB8700618EA3 /* UserFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883A7C22AEFEB8700618EA3 /* UserFetcher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2708376E9F86237EEC60E047 /* Pods-CombineMockup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CombineMockup.release.xcconfig"; path = "Target Support Files/Pods-CombineMockup/Pods-CombineMockup.release.xcconfig"; sourceTree = "<group>"; };
+		517655DF872310F932F6ED0D /* Pods-CombineMockup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CombineMockup.debug.xcconfig"; path = "Target Support Files/Pods-CombineMockup/Pods-CombineMockup.debug.xcconfig"; sourceTree = "<group>"; };
+		642F88901E838C445922DD07 /* Pods_CombineMockup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CombineMockup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F883657A2AEF94F2006305A9 /* CombineMockup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CombineMockup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F883657D2AEF94F2006305A9 /* CombineMockupApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineMockupApp.swift; sourceTree = "<group>"; };
 		F883657F2AEF94F2006305A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F88365812AEF94F4006305A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F88365842AEF94F4006305A9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F883A7BA2AEFE59700618EA3 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		F883A7BE2AEFE63500618EA3 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		F883A7C02AEFEAB400618EA3 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		F883A7C22AEFEB8700618EA3 /* UserFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFetcher.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +38,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B1D53E73AB18C68EF29593A /* Pods_CombineMockup.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B97ACC35B024D7DE573B436 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				517655DF872310F932F6ED0D /* Pods-CombineMockup.debug.xcconfig */,
+				2708376E9F86237EEC60E047 /* Pods-CombineMockup.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C51C18E4B36A7E58717EA5BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				642F88901E838C445922DD07 /* Pods_CombineMockup.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F88365712AEF94F2006305A9 = {
 			isa = PBXGroup;
 			children = (
 				F883657C2AEF94F2006305A9 /* CombineMockup */,
 				F883657B2AEF94F2006305A9 /* Products */,
+				9B97ACC35B024D7DE573B436 /* Pods */,
+				C51C18E4B36A7E58717EA5BF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,6 +85,10 @@
 			children = (
 				F883657D2AEF94F2006305A9 /* CombineMockupApp.swift */,
 				F883657F2AEF94F2006305A9 /* ContentView.swift */,
+				F883A7BE2AEFE63500618EA3 /* APIError.swift */,
+				F883A7C02AEFEAB400618EA3 /* ViewModel.swift */,
+				F883A7C22AEFEB8700618EA3 /* UserFetcher.swift */,
+				F883A7BA2AEFE59700618EA3 /* Model.swift */,
 				F88365812AEF94F4006305A9 /* Assets.xcassets */,
 				F88365832AEF94F4006305A9 /* Preview Content */,
 			);
@@ -74,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F88365882AEF94F4006305A9 /* Build configuration list for PBXNativeTarget "CombineMockup" */;
 			buildPhases = (
+				4EC8619246318EAA5F15137B /* [CP] Check Pods Manifest.lock */,
 				F88365762AEF94F2006305A9 /* Sources */,
 				F88365772AEF94F2006305A9 /* Frameworks */,
 				F88365782AEF94F2006305A9 /* Resources */,
+				FA7E2CC960DE8B3619154354 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +170,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4EC8619246318EAA5F15137B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CombineMockup-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA7E2CC960DE8B3619154354 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CombineMockup/Pods-CombineMockup-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CombineMockup/Pods-CombineMockup-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CombineMockup/Pods-CombineMockup-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F88365762AEF94F2006305A9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -139,6 +219,10 @@
 			files = (
 				F88365802AEF94F2006305A9 /* ContentView.swift in Sources */,
 				F883657E2AEF94F2006305A9 /* CombineMockupApp.swift in Sources */,
+				F883A7BB2AEFE59700618EA3 /* Model.swift in Sources */,
+				F883A7C32AEFEB8700618EA3 /* UserFetcher.swift in Sources */,
+				F883A7BF2AEFE63500618EA3 /* APIError.swift in Sources */,
+				F883A7C12AEFEAB400618EA3 /* ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,7 +266,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -245,7 +329,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -266,6 +350,7 @@
 		};
 		F88365892AEF94F4006305A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 517655DF872310F932F6ED0D /* Pods-CombineMockup.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -295,6 +380,7 @@
 		};
 		F883658A2AEF94F4006305A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2708376E9F86237EEC60E047 /* Pods-CombineMockup.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

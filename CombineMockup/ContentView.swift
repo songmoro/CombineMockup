@@ -8,14 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var viewModel = ViewModel()
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            ForEach(viewModel.userList) { user in
+                AsyncImage(url: URL(string: user.data.avatar))
+                Text("name: \(user.data.firstName) \(user.data.lastName)")
+                Text("email: \(user.data.email)")
+                Text("support: \(user.support.text)")
+            }
         }
-        .padding()
+        .onAppear {
+            viewModel.fetchUser()
+        }
     }
 }
 
